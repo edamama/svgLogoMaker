@@ -2,13 +2,13 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs'); //to write file
-const generateSvg = require("libraries/generateSvg.js");
+const generateSvg = require("./libraries/generateSvg.js");
 
 
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, generateSvg(data), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Go see your new logo in the "sampleLogos" folder!')
      );
 
 }
@@ -61,8 +61,8 @@ function runApp(){
     ]).then((response) =>
             
         writeToFile("sampleLogos/example.svg", response)
-
-    );
+        
+    )
 
 }
 

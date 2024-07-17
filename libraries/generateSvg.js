@@ -16,3 +16,16 @@ function generateSvg(data){ //insert needed code
 
 
 }
+
+//add switch case scenarios probably
+
+
+
+
+
+
+
+
+
+
+module.exports = generateSvg;
