@@ -50,3 +50,5 @@ function Triangle(){
     }
 
 }
+
+module.exports = {Circle,Square,Triangle};

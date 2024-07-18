@@ -1,11 +1,12 @@
 
-    
-    
-    
-    
-    
-    
-    
-    
+        
+        
+        <svg height="300" width="500" xmlns="http://www.w3.org/2000/svg">
+        
+            <polygon points="250,60 100,400 400,400" style="fill:violet"/>
+
+            <text x="250" y="250" font-size="60" text-anchor="middle" fill="lime">abc</text>
+
+        </svg>
     
     
